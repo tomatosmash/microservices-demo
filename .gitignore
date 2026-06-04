@@ -26,3 +26,13 @@ obj/
 pkg/
 release/wi-kubernetes-manifests.yaml
 vendor/
+
+# OmniAnomaly 复现 — 排除大文件/数据集/第三方库
+paper_reproduce/omnianomaly_kdd19/ServerMachineDataset/
+paper_reproduce/omnianomaly_kdd19/processed/
+paper_reproduce/omnianomaly_kdd19/tfsnippet_repo/
+paper_reproduce/omnianomaly_kdd19/zhusuan/
+paper_reproduce/omnianomaly_kdd19/custom_train.npy
+paper_reproduce/omnianomaly_kdd19/result/
+paper_reproduce/omnianomaly_kdd19/boutique__data/k8s_metrics.csv
+paper_reproduce/omnianomaly_kdd19/boutique__data/test_collect.csv
